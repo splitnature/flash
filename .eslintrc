@@ -1,3 +1,4 @@
+
 {
   "parser": "babel-eslint",
   "plugins": [
@@ -9,6 +10,7 @@
   },
   "extends": [ "plugin:react/recommended"],
   "rules": {
+    "react/no-unescaped-entities": 0,
     "strict":0,
     "no-unused-vars": 0,
     "no-console": 1,
@@ -24,7 +26,7 @@
         "objects": "never",
         "imports": "never",
         "exports": "never",
-        "functions": "ignore",
+        "functions": "ignore"
     }],
     "react/prop-types": [2]
   }
