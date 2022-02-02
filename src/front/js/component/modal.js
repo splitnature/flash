@@ -15,7 +15,7 @@ export const Modallogin = () => {
 			register
 			<Modal show={show} onHide={handleClose}>
 				<Modal.Header closeButton>
-					<Modal.Title>Modal heading</Modal.Title>
+					<Modal.Title>Register</Modal.Title>
 				</Modal.Header>
 				<Modal.Body /> <Register />
 				<Modal.Footer>
@@ -43,7 +43,7 @@ export const Modalregister = () => {
 			log in
 			<Modal show={show} onHide={handleClose}>
 				<Modal.Header closeButton>
-					<Modal.Title>Modal heading</Modal.Title>
+					<Modal.Title>log in</Modal.Title>
 				</Modal.Header>
 				<Modal.Body /> <Login />
 				<Modal.Footer>
